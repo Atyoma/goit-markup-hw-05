@@ -246,6 +246,42 @@ img {
 .button:focus {
   background-color: #188ce8;
 }
+
+/*-------------------modal window*/
+
+.backdrop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 1024px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  margin: auto;
+
+  background-color: #ffffff;
+}
+.btn-close {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 543px;
+  margin-left: 490px;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
 /*--------------------section best------------------------*/
 .section {
   padding-top: 94px;
